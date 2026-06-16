@@ -18,6 +18,10 @@ bucket = client.bucket(bucket_nome)
 #imagem = Image.open(BytesIO(imagem_bytes))
 
 # -------------------------------------------------------------------------------------------------
+def carregar_imagem(nome_arquivo):
+    blob = bucket.blob(nome_arquivo)
+    imagem_bytes = blob.download_as_bytes()
+    return Image.open(BytesIO(imagem_bytes))
 # Título do site
 st.title("Olá, Mundo!\nSejam bem vindos ao meu site. Minha graça é Matheus Bryan!")
 
@@ -57,11 +61,6 @@ with ab2:
         st.image(carregar_imagem("imagens_jogadores/ale_4.jpg"))
         st.write("Mais um da alemanha")
 # =========================================================================================================
-def carregar_imagem(nome_arquivo):
-    blob = bucket.blob(nome_arquivo)
-    imagem_bytes = blob.download_as_bytes()
-    return Image.open(BytesIO(imagem_bytes))
-
 # -------------------------------------------------------------------------------------------------
 
 #st.image(
