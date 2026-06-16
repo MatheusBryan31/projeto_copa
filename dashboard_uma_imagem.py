@@ -38,7 +38,7 @@ with ab1:
 
     with col1:
         st.image(carregar_imagem("imagens_jogadores/bra_5.jpg"))
-        st.write("Doidão do Brasil")
+        st.write("Alex Sandro")
     with col2:
         st.image(carregar_imagem("imagens_jogadores/bra_3.jpg"))
         st.write("Marcos")
@@ -59,7 +59,7 @@ with ab2:
         st.image(carregar_imagem("imagens_jogadores/ale_2.jpg"))
         st.write("Kimich")
     with col3:
-        st.image(carregar_imagem("imagens_jogadores/ale_4.jpg"))
+        st.image(carregar_imagem("imagens_jogadores/ale_8.jpg"))
         st.write("Mais um da alemanha")
 # =========================================================================================================
 # -------------------------------------------------------------------------------------------------
