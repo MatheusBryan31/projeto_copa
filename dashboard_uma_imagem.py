@@ -3,7 +3,7 @@ from google.cloud import storage
 from PIL import Image
 from io import BytesIO
 
-st.title("Olá, Mundo!\nSejam bem vindos ao meu site. Minha é Matheus Bryan!")
+st.title("Olá, Mundo!\nSejam bem vindos ao meu site. Minha graça é Matheus Bryan!")
 
 # Cliente autenticado via Streamlit Secrets
 client = storage.Client.from_service_account_info(
