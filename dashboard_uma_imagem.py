@@ -38,13 +38,13 @@ with ab1:
 
     with col1:
         st.image(carregar_imagem("imagens_jogadores/bra_5.jpg"))
-        st.write("Alex Sandro")
+        st.write("Sandro Bahia")
     with col2:
         st.image(carregar_imagem("imagens_jogadores/bra_3.jpg"))
-        st.write("Marcos")
+        st.write("Markin do Pneu")
     with col3:
         st.image(carregar_imagem("imagens_jogadores/bra_4.jpg"))
-        st.write("Tiago Silva")
+        st.write("Beiçola")
 # ========================================================================================================
 # ============================================ ALEMANHA ==================================================
 with ab2:
@@ -54,13 +54,13 @@ with ab2:
 
     with col1:
         st.image(carregar_imagem("imagens_jogadores/ale_1.jpg"))
-        st.write("Manuel Noier")
+        st.write("Manoel Noiado")
     with col2:
         st.image(carregar_imagem("imagens_jogadores/ale_2.jpg"))
-        st.write("Kimich")
+        st.write("Cláudio Emílio")
     with col3:
         st.image(carregar_imagem("imagens_jogadores/ale_11.jpg"))
-        st.write("Thomas Muller")
+        st.write("Juninho Pernambucano")
 # =========================================================================================================
 # -------------------------------------------------------------------------------------------------
 
