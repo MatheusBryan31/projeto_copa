@@ -59,8 +59,8 @@ with ab2:
         st.image(carregar_imagem("imagens_jogadores/ale_2.jpg"))
         st.write("Kimich")
     with col3:
-        st.image(carregar_imagem("imagens_jogadores/ale_8.jpg"))
-        st.write("Mais um da alemanha")
+        st.image(carregar_imagem("imagens_jogadores/ale_11.jpg"))
+        st.write("Thomas Muller")
 # =========================================================================================================
 # -------------------------------------------------------------------------------------------------
 
